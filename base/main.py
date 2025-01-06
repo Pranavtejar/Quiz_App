@@ -14,6 +14,6 @@ quiz = QuizBrain(question_bank)
 
 quiz_ui = ui.QuizInterface(quiz) 
 
-# Keep displaying questions until there are no more
+
 while quiz.still_has_questions():
     quiz.next_question()
